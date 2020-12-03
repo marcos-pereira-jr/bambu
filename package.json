@@ -1,6 +1,6 @@
 {
   "name": "bambu-mountneer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "main": "./dist/bambu-mountneer.common.js",
   "description": "Uma biblioteca para formatar moedas para o padrão brasileiro",
