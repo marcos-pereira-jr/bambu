@@ -1,27 +1,27 @@
 {
   "name": "bambu-mountneer",
   "version": "0.1.0",
-  "private": false,
-  "main": "./dist/bambuMountneer.common.js",
-  "description": "Biblioteca de componente teste",
+  "private": true,
+  "main": "./dist/bambu-mountneer.common.js",
+  "description": "Uma biblioteca para formatar moedas para o padrão brasileiro",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "build:npm": "vue-cli-service build --target lib --name bambu-mountneer src/index.js"
+    "build:npm": "vue-cli-service build --target lib --name bibliotecaSimplesVue src/index.js",
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "core-js": "^3.6.5",
-    "vue": "^3.0.0"
+    "core-js": "^3.6.4",
+    "vue": "^2.6.11"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-plugin-eslint": "~4.5.0",
-    "@vue/cli-service": "~4.5.0",
-    "@vue/compiler-sfc": "^3.0.0",
+    "@vue/cli-plugin-babel": "~4.3.0",
+    "@vue/cli-plugin-eslint": "~4.3.0",
+    "@vue/cli-service": "~4.3.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^7.0.0-0"
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
     "root": true,
@@ -29,7 +29,7 @@
       "node": true
     },
     "extends": [
-      "plugin:vue/vue3-essential",
+      "plugin:vue/essential",
       "eslint:recommended"
     ],
     "parserOptions": {
