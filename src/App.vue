@@ -1,6 +1,8 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <formata-valor valor="12" />
+  <div>
+    <img alt="Vue logo" src="./assets/logo.png" />
+    <FormataValor valor="12" />
+  </div>
 </template>
 
 <script>

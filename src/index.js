@@ -1,10 +1,11 @@
-import component from './components/FormataValor.vue';
-
+import FormataValor from './components/FormataValor.vue';
+import Input from './components/Input.vue';
 // Declare install function executed by Vue.use()
 export function install(Vue) {
   if (install.installed) return;
   install.installed = true;
-  Vue.component('bambu-mountneer', component);
+  Vue.component('bambu-mountneer', FormataValor);
+  Vue.component('bambu-mountneer', FormataValor);
 }
 
 // Create module definition for Vue.use()
