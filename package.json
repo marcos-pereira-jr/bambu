@@ -1,11 +1,14 @@
 {
-  "name": "bambu",
+  "name": "bambu-mountneer",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "main": "./dist/bambuMountneer.common.js",
+  "description": "Biblioteca de componente teste",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "build:npm": "vue-cli-service build --target lib --name bambu-mountneer src/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -38,5 +41,8 @@
     "> 1%",
     "last 2 versions",
     "not dead"
+  ],
+  "files": [
+    "dist/*"
   ]
 }

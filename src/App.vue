@@ -1,17 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <img alt="Vue logo" src="./assets/logo.png" />
+  <formata-valor valor="12" />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import FormataValor from "@/components/FormataValor.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    FormataValor,
+  },
+};
 </script>
 
 <style>
